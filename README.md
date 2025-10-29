@@ -64,5 +64,5 @@ Nó kết hợp các công nghệ mạnh mẽ như **MongoDB, Kafka, Redis và K
 
 
 <p align="center">
-  <img width="500" height="549" alt="image" src="https://github.com/user-attachments/assets/252d315a-8ec2-418a-9e95-645ce192d10c" />
+  <img width="500" height="620" alt="image" src="https://github.com/user-attachments/assets/252d315a-8ec2-418a-9e95-645ce192d10c" />
 </p>
