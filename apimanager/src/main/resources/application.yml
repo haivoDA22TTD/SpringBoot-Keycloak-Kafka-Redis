@@ -1,0 +1,12 @@
+server:
+  port:
+    8080
+spring:
+  application:
+  name:
+    apimanager
+  data:
+    mongodb:
+      url:
+        mongodb://mongo:27017/api_manager
+
