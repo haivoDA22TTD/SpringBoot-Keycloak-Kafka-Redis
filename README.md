@@ -10,7 +10,7 @@
 ---
 
 ## 📝 Mô tả dự án
-Dự án này được xây dựng với mục tiêu **[mô tả mục tiêu dự án của bạn]**, sử dụng các công nghệ hiện đại để đảm bảo hiệu năng, bảo mật và khả năng mở rộng.
+Dự án này được xây dựng với mục tiêu  **sử dụng các công nghệ hiện đại để đảm bảo hiệu năng, bảo mật và khả năng mở rộng**.
 
 ---
 
