@@ -69,15 +69,15 @@ Nó kết hợp các công nghệ mạnh mẽ như **MongoDB, Kafka, Redis và K
    cd apimanager
   ```
 ### Build backend thành file jar
-### mvn
+### <img src="https://cdn.simpleicons.org/apachemaven/FF6600" width="20"> mvn
   ```bash
     mvn clean package -DskipTests
   ```
-### mvnw
+### <img src="https://cdn.simpleicons.org/apachemaven/FF6600" width="20"> mvnw
   ```bash
     ./mvnw clean package -DskipTests
   ```
-### Chạy ứng dụng với Docker
+### <img src="https://cdn.simpleicons.org/docker/2496ED" width="24"> Chạy ứng dụng với Docker
   ```bash
     docker-compose up --build
   ```
