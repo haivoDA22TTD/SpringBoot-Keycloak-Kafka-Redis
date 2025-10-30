@@ -66,6 +66,7 @@ Nó kết hợp các công nghệ mạnh mẽ như **MongoDB, Kafka, Redis và K
 ### Clone ứng dụng
   ```bash
    git clone https://github.com/haivoDA22TTD/SpringBoot-Keycloak-Kafka-Redis.git
+   cd SpringBoot-Keycloak-Kafka-Redis
    cd apimanager
   ```
 ### Build backend thành file jar
