@@ -62,7 +62,25 @@ Nó kết hợp các công nghệ mạnh mẽ như **MongoDB, Kafka, Redis và K
 
 > 💡 Lưu ý: Các port có thể thay đổi tùy cấu hình Docker Compose hoặc file `application.yml`.
 
-
+## Hướng dẫn cài đặt ứng dụng
+### Clone ứng dụng
+  ```bash
+   git clone https://github.com/haivoDA22TTD/SpringBoot-Keycloak-Kafka-Redis.git
+   cd apimanager
+  ```
+### Build backend thành file jar
+### mvn
+  ```bash
+    mvn clean package -DskipTests
+  ```
+### mvnw
+  ```bash
+    ./mvnw clean package -DskipTests
+  ```
+### Chạy ứng dụng với Docker
+  ```bash
+    docker-compose up --build
+  ```
 <p align="center">
   <img width="500" height="620" alt="image" src="https://github.com/user-attachments/assets/252d315a-8ec2-418a-9e95-645ce192d10c" />
 </p>
