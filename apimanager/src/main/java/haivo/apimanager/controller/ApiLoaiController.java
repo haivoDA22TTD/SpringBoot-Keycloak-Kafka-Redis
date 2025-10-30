@@ -1,7 +1,9 @@
 package haivo.apimanager.controller;
 
 import haivo.apimanager.model.ApiLoai;
+import haivo.apimanager.repository.ApiLoaiRepository;
 import haivo.apimanager.service.ApiLoaiService;
+import haivo.apimanager.service.KafkaProducer;
 import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
@@ -11,14 +13,24 @@ import java.util.List;
 public class ApiLoaiController {
 
     private final ApiLoaiService service;
+    private final ApiLoaiRepository repository;
+    private final KafkaProducer producer;
 
-    public ApiLoaiController(ApiLoaiService service) {
+    public ApiLoaiController(ApiLoaiService service, ApiLoaiRepository repository,  KafkaProducer producer) {
         this.service = service;
+        this.repository = repository;
+        this.producer = producer;
     }
 
     @GetMapping
     public List<ApiLoai> getAll() {
-        return service.getAll();
+        return repository.findAll();
+    }
+
+    @GetMapping("/send")
+    public String send(@RequestParam String message) {
+        producer.sendMessage(message);
+        return "Message sent: " + message;
     }
 
     @PostMapping
