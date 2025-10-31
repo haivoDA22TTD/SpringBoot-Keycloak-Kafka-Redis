@@ -58,7 +58,7 @@ Nó kết hợp các công nghệ mạnh mẽ như **MongoDB, Kafka, Redis và K
 | 🔑 Keycloak    | Quản lý authentication & authorization       | 8081   |
 | ☕ Kafka       | Hệ thống messaging real-time                  | 9092          |
 | 🟥 Redis       | Lưu trữ cache dữ liệu tạm thời                | 6379          |
-|  ![MailHog](https://avatars.githubusercontent.com/u/10258541?v=4&s=64)   MailHog    | Giả lập gửi tin nhắn đến email                |  1025/8025    |
+| ![MailHog](https://avatars.githubusercontent.com/u/10258541?v=4&s=32) MailHog    | Giả lập gửi tin nhắn đến email |  1025/8025    |
 
 
 > 💡 Lưu ý: Các port có thể thay đổi tùy cấu hình Docker Compose hoặc file `application.yml`.
